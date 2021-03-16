@@ -16,10 +16,28 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(8);
     }
 
+    /**
+     * Adds three points
+     */
     public void addThreeForTeamA(View v) {
         displayForTeamA(3);
-
     }
+
+    /**
+     * Adds two points
+     */
+    public void addTwoForTeamA(View v) {
+        displayForTeamA(2);
+    }
+
+    /**
+     * Adds one points
+     */
+    public void addOneForTeamA(View v) {
+        displayForTeamA(1);
+    }
+
+
 
     /**
      * Displays the given score for Team A.
