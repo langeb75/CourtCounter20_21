@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(8);
     }
 
+    public void addThreeForTeamA(View v) {
+        displayForTeamA(3);
+
+    }
+
     /**
      * Displays the given score for Team A.
      */
@@ -22,6 +28,5 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
-
 
 }
