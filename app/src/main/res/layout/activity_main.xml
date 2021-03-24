@@ -26,7 +26,6 @@
             android:textColor="#ffffff"
             android:textSize="50dp"
             android:textStyle="bold" />
-
     </RelativeLayout>
 
     <LinearLayout
